@@ -28,12 +28,9 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
-    implementation 'com.squareup.okhttp3:okhttp:3.14.1'
-/*
-    implementation 'com.squareup.okhttp3:okhttp3-urlconnection:3.0.1'
-*/
 
 
+    implementation 'com.squareup.picasso:picasso:2.71828'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.0.2'
